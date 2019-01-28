@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- keywords -->
+	<meta name="keywords" content="">
+	<!-- description -->
+	<meta name="Description" content="">
+	
+	<!-- favicon -->
+	<link type="image/png" rel="shortcut icon" href="i/favicon.ico">
+    
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 11]>
+		<script type="text/javascript" src="js/reject.min.js"></script>
+	<![endif]-->
+    <title>Версаль</title>
+</head>
+<body>
+	<header class="topBlock">
+		<div class="container topBlock__grid">
+
+			<div class="topBlock__logo">
+				<a href="index.html" class="topBlock__logo_img">
+					<img src="i/logo.svg" alt="">
+				</a>
+			</div> <!-- /.topContacts__logo -->
+
+			<div class="topBlock__burgerMenu">
+		  		<span class="topBlock__burgerMenu_line"></span>
+		  	</div>
+
+			<div class="topBlock__contacts">
+				<a href="https://www.google.com/maps/place/Beetroot+Academy/@46.4786342,30.7213114,17z/data=!3m1!4b1!4m5!3m4!1s0x40c63137bf32d669:0x48acb379ad25e419!8m2!3d46.4786342!4d30.7235001" target="_blank" class="topBlock__contacts_item topBlock__contacts_address">г. Одесса, ул. Асташкина, 29</a>
+				<a href="mailto:mr.tkach.a@gmail.com" class="topBlock__contacts_item topBlock__contacts_email">mr.tkach.a@gmail.com</a>
+				<a href="tel:+380731776166" class="topBlock__contacts_item topBlock__contacts_tel">+38 (073) 177-61-66</a>
+				<a href="cart.html" class="topBlock__contacts_item topBlock__contacts_btn">
+					Корзина
+				</a>
+			</div> <!-- /.topBlock__contacts -->
+			<div class="topBlock__nav">
+	  			<a href="index.html" class="topBlock__nav_link topBlock__current_link">главная</a>
+	  			<a href="catalog.html" class="topBlock__nav_link">каталог</a>
+	  			<a href="#" class="topBlock__nav_link">галерея</a>
+	  			<a href="#" class="topBlock__nav_link">о компании</a>
+	  			<a href="#" class="topBlock__nav_link">оплата и доставка</a>
+	  		</div> <!-- /.mainBlock__nav -->
+			<div class="topBlock__mobileMenu">
+				<a href="index.html" class="topBlock__mobileMenu_link topBlock__current_link">главная</a>
+				<a href="catalog.html" class="topBlock__mobileMenu_link">каталог</a>
+				<a href="#" class="topBlock__mobileMenu_link">галерея</a>
+				<a href="#" class="topBlock__mobileMenu_link">о компании</a>
+				<a href="#" class="topBlock__mobileMenu_link">оплата и доcтавка</a>
+			</div>
+		</div>
+	</header> <!-- /.topContacts -->
+
+<!-- miniCart -->
+	<a href="cart.html" class="miniCart">
+		<img class="miniCart__img" src="i/cart.svg" alt="">
+		<div class="miniCart__qty"></div>
+	</a>
+<!-- end of miniCart -->
+
+ 
+
+  	<section class="mainBlock">
+  		<div class="container  mainBlock__flex">
+	  		<div class="mainBlock__slogan">
+	  			<h1 class="mainBlock__slogan_h1">Дом начинается с двери.</h1>
+	  			<p class="mainBlock__slogan_p">Однажды… и на всю жизнь.</p>
+	  		</div> <!-- /.mainBlock__slogan -->
+	  		<a href="catalog.html" class="mainBlock__catalogLink">Смотреть каталог</a>
+	  		<div class="mainBlock__callBack">
+	  			<p class="mainBlock__callBack_p1">Закажите обратный звонок</p>
+	  			<p class="mainBlock__callBack_p2">И наш менеджер перезвонит Вам в течении 15 минут</p>
+	  			<form action="#" class="callBack__form" autocomplete="off">
+
+		            <input type="text" class="callBack__form_item callBack__form_field callBack__form_name form-control"  placeholder="Имя"
+		                 data-validate data-message="Введите имя" >
+		            <small class="invalidate">Введите имя</small>
+
+					<input type="tel"  
+                	data-message="Введите телефон" 
+                	class="callBack__form_item callBack__form_field callBack__form_tel form-control" placeholder="Номер телефона - (XXX) XXX XXXX" data-validate>
+        			<small class="invalidate">Введите телефон</small>
+
+        			  <label for="formAgreement" class="callBack__form_item callBack__form_agreement">Я соглашаюсь на обработку данных
+			            <input type="checkbox" id="formAgreement" class="callBack__form_checkbox">
+			            <span class="callBack__form_checkboxCustom"></span>
+			        </label>
+					
+					<input type="submit" value="Заказать" class="callBack__form_item callBack__form_btn">
+
+	  			</form>
+	  			<p class="mainBlock__successMessage">Спасибо! Оставайтесь на связи! Мы Вам перезвоним</p>
+	  		</div>
+  		</div><!-- /container -->
+  	</section><!-- /.mainBlock -->
+
+  	<section class="saleBlock">
+  		<div class="container">
+			<div class="saleBlock__relative">
+	  			<h2 class="saleBlock__h2">Хит продаж</h2>
+	  			<div class="saleBlock__arrows">
+	  				<span class="saleBlock__arrows_left saleBlock__arrows_item"></span>
+	  				<span class="saleBlock__arrows_right saleBlock__arrows_item"></span>
+	  			</div>
+	  			<div class="slider" id="sliderBlock">
+	  				<div class="saleBlock__card">
+	  					<img class="saleBlock__card_door" src="i/door1.jpg" alt="">
+	  					<img class="saleBlock__card_quality" src="i/quality.svg" alt="">
+
+		  				<div class="saleBlock__card_content">
+		  					<h3 class="saleBlock__card_h3">Cortex Deco 01 дуб bianco
+		  					</h3>
+		  					<p class="saleBlock__card_p">
+		  						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		  					</p>
+		  					<p class="saleBlock__card_price">
+		  						105 000 р.
+		  					</p>
+		  					<button class="saleBlock__card_btn" data-art="0001">
+		  						Заказать
+		  					</button>
+		  				</div>
+	  				</div>
+	  				<div class="saleBlock__card">
+	  					<img class="saleBlock__card_door" src="i/door2.jpg" alt="">
+	  					<img class="saleBlock__card_quality" src="i/quality.svg" alt="">
+
+		  				<div class="saleBlock__card_content">
+		  					<h3 class="saleBlock__card_h3">Cortex Deco 10 дуб bianco
+		  					</h3>
+		  					<p class="saleBlock__card_p">
+		  						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		  					</p>
+		  					<p class="saleBlock__card_price">
+		  						115 000 р.
+		  					</p>
+		  					<button class="saleBlock__card_btn" data-art="0010">
+		  						Заказать
+		  					</button>
+		  				</div>
+	  				</div>
+	  				<div class="saleBlock__card">
+	  					<img class="saleBlock__card_door" src="i/door3.jpg" alt="">
+	  					<img class="saleBlock__card_quality" src="i/quality.svg" alt="">
+
+		  				<div class="saleBlock__card_content">
+		  					<h3 class="saleBlock__card_h3">Cortex Deco 20 дуб bianco
+		  					</h3>
+		  					<p class="saleBlock__card_p">
+		  						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		  					</p>
+		  					<p class="saleBlock__card_price">
+		  						125 000 р.
+		  					</p>
+		  					<button class="saleBlock__card_btn" data-art="0020">
+		  						Заказать
+		  					</button>
+		  				</div>
+	  				</div>
+	  				<div class="saleBlock__card">
+	  					<img class="saleBlock__card_door" src="i/door4.jpg" alt="">
+	  					<img class="saleBlock__card_quality" src="i/quality.svg" alt="">
+
+		  				<div class="saleBlock__card_content">
+		  					<h3 class="saleBlock__card_h3">Cortex Deco 30 дуб bianco
+		  					</h3>
+		  					<p class="saleBlock__card_p">
+		  						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		  					</p>
+		  					<p class="saleBlock__card_price">
+		  						135 000 р.
+		  					</p>
+		  					<button class="saleBlock__card_btn" data-art="0030">
+		  						Заказать
+		  					</button>
+		  				</div>
+	  				</div>
+	  				<div class="saleBlock__card">
+	  					<img class="saleBlock__card_door" src="i/door5.jpg" alt="">
+	  					<img class="saleBlock__card_quality" src="i/quality.svg" alt="">
+
+		  				<div class="saleBlock__card_content">
+		  					<h3 class="saleBlock__card_h3">Cortex Deco 40 дуб bianco
+		  					</h3>
+		  					<p class="saleBlock__card_p">
+		  						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		  					</p>
+		  					<p class="saleBlock__card_price">
+		  						145 000 р.
+		  					</p>
+		  					<button class="saleBlock__card_btn" data-art="0040">
+		  						Заказать
+		  					</button>
+		  				</div>
+	  				</div>
+	  				<div class="saleBlock__card">
+	  					<img class="saleBlock__card_door" src="i/door6.jpg" alt="">
+	  					<img class="saleBlock__card_quality" src="i/quality.svg" alt="">
+
+		  				<div class="saleBlock__card_content">
+		  					<h3 class="saleBlock__card_h3">Cortex Deco 50 дуб bianco
+		  					</h3>
+		  					<p class="saleBlock__card_p">
+		  						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		  					</p>
+		  					<p class="saleBlock__card_price">
+		  						155 000 р.
+		  					</p>
+		  					<button class="saleBlock__card_btn" data-art="0050">
+		  						Заказать
+		  					</button>
+		  				</div>
+	  				</div>
+	  			</div>
+
+			</div>
+  		</div>
+  	</section><!-- /.saleBlock -->
+
+  	<section class="advantagesBlock">
+  		<div class="container flex">
+  			
+	  		<div class="advantagesBlock__left">
+	  		</div>
+
+	  		<div class="advantagesBlock__right">
+	  				
+	  			<h2 class="advantagesBlock__h2">Преимущества</h2>
+
+	  			<div class="advantagesBlock__production advantagesBlock__item">
+
+	  				<div class="advantagesBlock__logo">
+	  					<svg viewBox="0 0 56 57" class="advantagesBlock__logo_svg">
+						  	<use xlink:href="i/sprite.svg#manufacture"></use>
+						</svg>
+	  				</div>
+					<div class="advantagesBlock__descript">
+						<h3 class="advantagesBlock__descript_h3">Cобственное производство</h3>
+						<p class="advantagesBlock__descript_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+					</div>
+	  			</div>
+
+	  			<div class="advantagesBlock__payment advantagesBlock__item">
+	  				<div class="advantagesBlock__logo">
+	  					<svg class="advantagesBlock__logo_svg">
+						  	<use xlink:href="i/sprite.svg#payment"></use>
+						</svg>
+	  				</div>
+					<div class="advantagesBlock__descript">
+						<h3 class="advantagesBlock__descript_h3">Возможность оплаты в рассрочку</h3>
+						<p class="advantagesBlock__descript_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+					</div>	
+	  			</div>
+
+	  			<div class="advantagesBlock__delivery advantagesBlock__item">
+	  				<div class="advantagesBlock__logo">
+	  					<svg class="advantagesBlock__logo_svg" viewBox="0 0 61 44">
+						  	<use xlink:href="i/sprite.svg#truck"></use>
+						</svg>
+	  				</div>
+					<div class="advantagesBlock__descript">
+						<h3 class="advantagesBlock__descript_h3">Быстрая доставка</h3>
+						<p class="advantagesBlock__descript_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+					</div>
+	  			</div>
+
+	  			<div class="advantagesBlock__quality advantagesBlock__item">
+	  				<div class="advantagesBlock__logo">
+	  					<svg class="advantagesBlock__logo_svg" viewBox="0 0 60 60">
+						  	<use xlink:href="i/sprite.svg#diamond"></use>
+						</svg>
+	  				</div>
+					<div class="advantagesBlock__descript">
+						<h3 class="advantagesBlock__descript_h3">Отличное качество</h3>
+						<p class="advantagesBlock__descript_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+					</div>
+	  			</div>
+			</div>
+	  	</div>
+  	</section> <!-- /.advantagesBlock -->
+
+
+  	<section class="contactsBlock">
+	  	<div class="container">
+		  	<div class="contactsBlock__wrapper">
+		  	<div class="contactsBlock__left">
+		  		<h2 class="contactsBlock__h2">
+		  			контакты
+		  		</h2>
+			  		<div class="contactsBlock__contacts">
+			  			<a href="https://www.google.com/maps/place/Beetroot+Academy/@46.4786342,30.7213114,17z/data=!3m1!4b1!4m5!3m4!1s0x40c63137bf32d669:0x48acb379ad25e419!8m2!3d46.4786342!4d30.7235001" target="_blank" class="contactsBlock__contacts_address contactsBlock__contacts_item">
+			  				г. Одесса, ул. Асташкина, 29
+			  			</a>
+			  			<a href="mailto:mr.tkach.a@gmail.com" class="contactsBlock__contacts_email contactsBlock__contacts_item">
+			  				mr.tkach.a@gmail.com
+			  			</a>
+			  			<a href="tel:+380731776166" class="contactsBlock__contacts_tel contactsBlock__contacts_item">
+			  				+38 (073) 177-61-66
+			  			</a>
+			  			<div class="contactsBlock__btn contactsBlock__contacts_item">
+			  				Заказать  звонок
+			  			</div>
+			  		</div>
+			  	</div>
+
+			  	<div class="contactsBlock__map" id="map"></div>
+			</div>
+	  	</div>	
+  	</section>
+
+  	<footer class="footer">
+  		<div class="container">
+		  	<div class="footer__nav">
+		  		<a href="index.html" class="footer__nav_link currentLink">главная</a>
+				<a href="catalog.html" class="footer__nav_link">каталог</a>
+				<a href="#" class="footer__nav_link">галерея</a>
+				<a href="#" class="footer__nav_link">о компании</a>
+				<a href="#" class="footer__nav_link">оплата и доставка</a>
+				<a href="cart.html" class="footer__nav_link">корзина</a>
+			</div>
+			<div class="footer__arrow" id="arrowUp">
+				<img src="i/arrow-up.svg" alt="">
+			</div>
+		</div>
+  	</footer>
+
+
+
+	
+	<!-- jQuery.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- slickSlider -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+	<!-- google maps -->
+	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2xUkVtMid7M9fbXixGPSB0ZPQ9p1BTXg&callback=initMap"
+        async defer></script>
+	<!-- script.js -->
+	<script src="js/script.js"></script>
+
+
+</body>
+</html>

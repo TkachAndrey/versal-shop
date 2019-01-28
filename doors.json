@@ -1,0 +1,63 @@
+{
+	"0001":{
+		"name": "Cortex Deco 01 white",
+		"price": 105000,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"image": "i/door1.jpg"
+
+	}, 
+	"0010":{
+		"name": "Cortex Deco 10 gold",
+		"price": 115000,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"image": "i/door2.jpg"
+	},
+	"0020":{
+		"name": "Cortex Deco 20 brown",
+		"price": 125000,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"image": "i/door3.jpg"
+	},
+	"0030":{
+		"name": "Cortex Deco 30 creamy",
+		"price": 135000,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"image": "i/door4.jpg"
+	},
+	"0040":{
+		"name": "Cortex Deco 40 black",
+		"price": 145000,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"image": "i/door5.jpg"
+	},
+	"0050":{
+		"name": "Cortex Deco 50 milky",
+		"price": 155000,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"image": "i/door6.jpg"
+	},
+	"0060":{
+		"name": "Cortex Deco 60 light",
+		"price": 145000,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"image": "i/door1.jpg"
+	},
+	"0070":{
+		"name": "Cortex Deco 70 golden",
+		"price": 125000,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"image": "i/door2.jpg"
+	},
+	"0080":{
+		"name": "Cortex Deco 80 dark",
+		"price": 105000,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"image": "i/door3.jpg"
+	},
+	"0090":{
+		"name": "Cortex Deco 90 silver",
+		"price": 125000,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"image": "i/door4.jpg"
+	}
+}
